@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
-    - nionutils
-    - numpy >=1.16
-    - python >=3.6
+    - python >=3.7
+    - nionutils >=0.3.10,<0.4.0
     - scipy
+    - numpy
 
 test:
   imports:
