@@ -5,11 +5,11 @@ Home: https://github.com/nion-software/niondata
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/niondata-feedstock/blob/master/LICENSE.txt)
 
 Summary: A data processing library for Nion Swift.
 
-
+Development: https://github.com/nion-software/niondata
 
 Current build status
 ====================
