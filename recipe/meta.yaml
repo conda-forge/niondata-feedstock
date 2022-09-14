@@ -1,5 +1,5 @@
 {% set name = "niondata" %}
-{% set version = "0.15.1" %}
+{% set version = "0.15.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dd42e3eb0126d1c05a07b07f967fc843dd930a90e5eb1a8a8745510890c6c0f2
+  sha256: cceecb1538e4fab5cc2edf37b4ee4fc231feffdaed7e248afbba94e963095e9a
 
 build:
   number: 0
