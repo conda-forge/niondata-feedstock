@@ -17,12 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python >=3.11
+    - setuptools
   run:
-    - python >=3.9
-    - nionutils >=0.4.5,<5.0.0
+    - python >=3.11
+    - nionutils >=4.12,<5.0
+    - numpy >=2.0,<3.0
     - scipy
-    - numpy >=1.21,<2.0
 
 test:
   imports:
